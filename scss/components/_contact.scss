@@ -1,0 +1,31 @@
+/* CONTACT */
+.bg-img {
+  background-image: url("../../img/contact/bg-img.jpg");
+  min-height: 380px;
+  padding: 3rem;
+  .contact{
+    h1{
+      padding: 1rem;
+    }
+    .contact__form {
+      margin: 3rem 20%;
+      .form-floating{
+        margin-top: .5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 48rem){  
+  .bg-img {
+    padding:3rem 0;
+    .contact{
+      h1{
+        margin: 3rem 1rem;
+      }
+      .contact__form {
+        margin: 4rem 1rem;
+      }
+    }
+  }
+}

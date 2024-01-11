@@ -1,0 +1,24 @@
+/* CART */
+.bg-img{
+  .cart{
+    padding: 10rem;
+    @include flexible( flex , column , center , center);
+    h1{
+      background-color: $background-color;
+      padding: .25rem;
+      border-radius: 1rem;
+      border: solid $link-color .25rem;
+      color: $link-color;
+    }
+  }
+}
+@media (max-width: 62rem){
+  .bg-img .cart{
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 48rem){
+  .bg-img .cart{
+    margin: 2rem 0;
+  }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="icon" href="img/base/icon.ico" type="image/x-icon">
+  <!-- icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Discover the eco-friendly and renewable energy products offered by VERDE. Find sustainable solutions to power your life.">
+  <meta name="keywords" content="Sustainability, Environment, Green, Eco, Power, Efficiency, Portable Solar Kit, Solar Power Generator, Portable Solar Charger, Eco-Friendly Energy">
+  <title>Empower Your Life with Solar Energy | VERDE</title>
+</head>
+<body>
+<!-- HEADER -->
+<header class="container">
+  <nav class="container header-content navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="navbar-brand header-logo"><a href="index.html"><img src="img/base/logo.png" alt="Verde"></a></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Verde</h3>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item active"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="site/products.html" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="site/about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="site/contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="site/cart.html" class="nav-link">Cart</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- MAIN CONTENT -->
+<main class="container">
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/products/solar-panel.jpg" alt="solar panel" class="mx-auto d-block carousel-img">
+      </div>
+      <div class="carousel-item">
+        <img src="img/products/solar-water-heaters.jpg" alt="solar water heaters" class="mx-auto d-block carousel-img">
+      </div>
+      <div class="carousel-item">
+        <img src="img/products/solar-ceiling-fans.jpg" alt="solar ceiling fans" class="mx-auto d-block carousel-img">
+      </div>
+    </div>
+
+  <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- FEATURED PRODUCTS -->
+  <!-- BEST-SELLING PRODUCTS -->
+  <!-- TESTIMONIALS -->
+  <section class="container">
+    <div class="row">
+      <div class="featured-product col-12 col-lg-4 card">
+        <div class="product card-body">
+          <h1 class="header-background">Featured Product</h1>
+          <img src="img/products/Solar-Chargers-for-Mobile-Device.jpg" alt="Featured product: Solar Chargers for Mobile Devices">
+          <h3>Solar Chargers for Mobile Devices</h3>
+          <p>They are practical for travel and camping.</p>
+          <p>Price: $20 - $100 USD</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+      <div class="best-seller col-12 col-lg-4 card">
+        <div class="product card-body">
+          <h2 class="header-background">Best Seller</h2>
+          <img src="img/products/Portable-Solar-Energy-Kit.jpg" alt="Best seller: Portable Solar Energy Kit">
+          <h3>Portable Solar Energy Kit</h3>
+          <p>These kits usually include a small solar panel, a battery, and an inverter</p>
+          <p>Price: $200 - $500 USD</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+      <div class="testimonial col-12 col-lg-4 card">
+        <div class="card-body">
+          <h2 class="header-background">Testimonial</h2>
+          <p>"My experience with Verde has been incredible. Their team of professionals helped me install my new solar panels. Now I save money and help the environment." - Pedro L.</p>
+        </div>
+      </div> 
+    </div>   
+  </section>
+  <!-- NEWSLETTER -->
+  <section class="newsletter row">
+    <h4 class="newsletter__heading header-background col-12 col-lg-5" data-aos="zoom-in-right">Subscribe to Our Newsletter</h4>
+    <div class="newsletter__text col-12 col-lg-6" data-aos="zoom-in-left">
+      <p class="blockquote">Gain exclusive access to valuable content and discover how to make a difference in the world around us.</p>
+      <form name="newsletter" method="POST" class="newsletter__form input-group" data-netlify="true">
+        <input class="form-control" type="email" name="email" placeholder="Your email address" required>
+        <button type="submit" class="btn btn-danger">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+<!-- FOOTER -->
+<footer class="container">
+  <div class="footer-content">
+    <div class="social-media">
+      <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.twitter.com/verdeecopower" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/verdeecopower/" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/emilianograbinowicz/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="others-links">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link"href="site/terms.html">Terms & Conditions</a></li>
+        <li class="nav-item"><a class="nav-link"href="site/privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init()</script>
+<!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
